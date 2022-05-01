@@ -1,0 +1,54 @@
+#heart{
+  width: 20px;
+  height: 20px;
+  color: black;
+  position: sticky;
+}
+#footer{
+  text-align: center;
+  font-size: small;
+}
+.color{
+  color:#EC4067;
+}
+.button1{
+  padding: 5px;
+  font-size: 16px;
+  background-color: #EC4067;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+color: white;
+}
+.container{
+  position: relative;
+}
+.bottomleft{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 20px;
+  color: white;
+}
+.button2{
+  padding: 5px;
+  font-size: 20px;
+  background-color: #EC4067;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+}
+.nav{
+  list-style-type: none;
+  text-align: right;
+  padding: 5px;
+  margin: 0;
+}
+.nav li{
+  display: inline-block;
+  padding: 20px;
+}
+#line{
+  display: inline-block;
+}
