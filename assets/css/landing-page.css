@@ -59,6 +59,12 @@ color: white;
   margin: 0;
   width: 100%;
   height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 #line{
   display: inline-block;
@@ -79,10 +85,15 @@ image_section{
   float: right;
   background-color: #EC4067;
   text-decoration: none;
+  color: white;
+  border-radius: 5px;
 }
 .float-right{
   float: right;
   text-decoration: none;
   padding: 10px;
   margin: 5px;
+}
+.float-left{
+  float: left;
 }
