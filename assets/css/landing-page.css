@@ -1,3 +1,10 @@
+@font-face {
+  font-family: Nunito;
+  src: url(../fonts/Nunito.ttf)
+}
+body{
+  font-family: Nunito;
+}
 #heart{
   width: 20px;
   height: 20px;
@@ -27,12 +34,19 @@ color: white;
   position: absolute;
   bottom: 8px;
   left: 16px;
-  font-size: 20px;
+  font-size: 15px;
+  color: white;
+}
+.bottomright{
+  position: absolute;
+  right: 16px;
+  bottom: 8px;
+  font-size: 15px;
   color: white;
 }
 .button2{
   padding: 5px;
-  font-size: 20px;
+  font-size: medium;
   background-color: #EC4067;
   border-radius: 4px;
   text-align: center;
@@ -51,4 +65,16 @@ color: white;
 }
 #line{
   display: inline-block;
+}
+.flex-container{
+    display: flex;
+ }
+.main_div{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+image_section{
+  height: 70px;
+  width: 70px;
+  background-color: red;
 }
