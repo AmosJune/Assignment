@@ -58,7 +58,7 @@ color: white;
   padding: 5px;
   margin: 0;
   width: 100%;
-  height: 50px;
+  height: 60px;
   position: fixed;
   top: 0;
   left: 0;
@@ -86,7 +86,7 @@ image_section{
   background-color: #EC4067;
   text-decoration: none;
   color: white;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 .float-right{
   float: right;
@@ -96,4 +96,12 @@ image_section{
 }
 .float-left{
   float: left;
+}
+.div1{
+  margin-top: 80px;
+}
+.parent-div{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 80px;
 }
